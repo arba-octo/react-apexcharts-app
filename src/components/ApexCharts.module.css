@@ -1,0 +1,82 @@
+.tooltipRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.tooltipRow__left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.tooltipRow__right {
+    font-weight: 500;
+}
+.cl1 {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cl2 {
+    background-color: var(--tooltip-bg);
+    color: var(--tooltip-text);
+    padding: 12px 16px;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    border: 1px solid var(--card-border);
+    min-width: 220px;
+}
+.cl3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.chart {
+    padding: 24px;
+    background-color: var(--bg-page);
+}
+.chart__top-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.chart__panel_left {
+    display: flex;
+    gap: 12px;
+}
+.chart__panel_right {
+    display: flex;
+    gap: 8px;
+}
+.chart__select-filter {
+    padding: 6px 12px;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 6px;
+    font-size: 14px;
+    color: var(--text-main);
+}
+.chart__icon-btn {
+    min-width: 32px;
+    height: 32px;
+    border: 1px solid var(--card-border);
+    border-radius: 6px;
+    font-size: 18px;
+    background: var(--card-bg);
+    cursor: pointer;
+}
+.chart__card {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--card-border);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+    padding: 16px;
+}
